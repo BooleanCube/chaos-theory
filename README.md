@@ -59,7 +59,8 @@ To start the dynamic manim equilibrium graph, run the following command:
 $ manim -p -ql dynamic_equilibrium_graph.py DynamicEquilibriumGraph
 ```
 Similar to the Static Equilibrium Graph, this script also generates all equilibrium graphs by iterating through the interval values for the rate of change variable. *This equilibrium graph script is animated with manim and is not as configurable as the equilibrium graph with the matplotlib package.* <br> <br>
-![dynamicequilibriumgraph](https://im5.ezgif.com/tmp/ezgif-5-fda7b8c5f3.gif)
+![dynamicequilibriumgraph](https://user-images.githubusercontent.com/47650058/192858595-f24223cc-452c-4779-98b6-ffdd04258c9e.gif)
+
 
 ### Bifurcation Diagram
 **Note:** Make sure you have installed all **REQUIRED AND OPTIONAL** dependencies for manim first, and then installed the manim library itself. <br>
