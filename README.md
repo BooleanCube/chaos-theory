@@ -121,6 +121,14 @@ or
 $ python3 -m pip install matplotlib
 ```
 
+### Download Project
+Run the following commands to downloads the project to be able to run the scripts:
+```
+$ cd /temp/directory/for/project/
+$ git clone https://github.com/BooleanCube/chaos-theory.git
+```
+Look at the [usages](https://github.com/BooleanCube/chaos-theory#usage) of the project to see how to run the different scripts.
+
 ## Credits
 [Veritasium](https://www.youtube.com/c/veritasium) is a channel of science and engineering videos featuring experiments, expert interviews, cool demos, and discussions with the public about everything science. <br>
 I recently came across a very intriguing [video about chaos theory](https://youtu.be/ovJcsL7vyrk) that they produced and was inspired to build this myself because I wanted to explore the logistic map and chaos for myself. <br>
