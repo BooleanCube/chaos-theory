@@ -25,6 +25,7 @@ Similar to the Dynamic Equilibrium Graph, this script also generates a random eq
 ![chaossimulation](https://user-images.githubusercontent.com/47650058/192432660-b22f5a68-7b56-4c38-92c2-7fc2237a48fb.gif)
 
 ## Installation
+**REQUIREMENT:** Must install [Python 3.7+](https://www.python.org/downloads/release/python-379/) (Versions of Python under 3.7 will not work for manim) <br>
 Before we download the chaos-theory project and run it, we need to install manim, a mathematics animation tool, and a bunch of other python packages that were used for the project.
 **Note:** Please download all the **REQUIRED AND OPTIONAL** dependencies before moving on to installing manim.
 
