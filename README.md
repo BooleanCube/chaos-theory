@@ -125,7 +125,7 @@ $ python3 -m pip install matplotlib
 [Veritasium](https://www.youtube.com/c/veritasium) is a channel of science and engineering videos featuring experiments, expert interviews, cool demos, and discussions with the public about everything science. <br>
 I recently came across a very intriguing [video about chaos theory](https://youtu.be/ovJcsL7vyrk) that they produced and was inspired to build this myself because I wanted to explore the logistic map and chaos for myself. <br>
 **Packages Used:** <br>
-IEEE COMPUTER SOC. (2007). Matplotlib: A 2D graphics environment (Version 3.6.0) [Computing in Science \& Engineering]. 10.1109/MCSE.2007.55
+IEEE COMPUTER SOC. (2007). Matplotlib: A 2D graphics environment (Version 3.6.0) [Computing in Science \& Engineering]. 10.1109/MCSE.2007.55 <br>
 The Manim Community Developers. (2022). Manim – Mathematical Animation Framework (Version v0.16.0) [Computer software]. https://www.manim.community/
 
 ----
