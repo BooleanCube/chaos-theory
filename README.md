@@ -49,6 +49,7 @@ $ python3 static_equilibrium_graph.py
 You will then be greeted with a prompt for input data. The script allows you to configure the variables to your choosing before visualizing the results. The prompt will look something similar to this: <br> <br>
 ![image](https://user-images.githubusercontent.com/47650058/192431390-c1db4208-50df-43e2-94cd-884e13f16984.png) <br> <br>
 After completing the input data prompts, the application will open a graph visualizer with the equilibrium graph (helps visualize the population percentage over time ratio) and a visual comparison between `x_(n+1)` and `x_n` to help explain how the population percentage may jump up and down but settle in at an equilibrium point. <br>
+
 ![image](https://user-images.githubusercontent.com/47650058/192678214-ef87e041-6f97-490f-83ad-394849222006.png)
 
 ### Dynamic Manim Equilibrium Graph
@@ -58,7 +59,7 @@ To start the dynamic manim equilibrium graph, run the following command:
 $ manim -p -ql dynamic_equilibrium_graph.py DynamicEquilibriumGraph
 ```
 Similar to the Static Equilibrium Graph, this script also generates all equilibrium graphs by iterating through the interval values for the rate of change variable. *This equilibrium graph script is animated with manim and is not as configurable as the equilibrium graph with the matplotlib package.* <br> <br>
-![chaossimulation](https://user-images.githubusercontent.com/47650058/192432660-b22f5a68-7b56-4c38-92c2-7fc2237a48fb.gif)
+![dynamicequilibriumgraph](https://im5.ezgif.com/tmp/ezgif-5-fda7b8c5f3.gif)
 
 ### Bifurcation Diagram
 **Note:** Make sure you have installed all **REQUIRED AND OPTIONAL** dependencies for manim first, and then installed the manim library itself. <br>
@@ -67,10 +68,21 @@ To start the bifurcation diagram figure animation, run the following command:
 $ manim -p -ql bifurcation_diagram.py BifurcationDiagram
 ```
 As described in the [Bifurcation Diagram Analysis](https://github.com/BooleanCube/chaos-theory#bifurcation-diagram), this is nothing more than an animation of the Bifurcation Diagram being generated. You can also see the animation without having to run the manim code: <br>
+
 ![bifurcationdiagram](https://user-images.githubusercontent.com/47650058/192745066-2413253a-cf56-4e45-9079-1d97b5d27004.gif)
 
 ### Feigenbaum Constant Calculator
-- In Progress
+**Note:** You must have any version of python3 installed on your computer. Preferably one of the more recent versions (Versions 3.7.9+)
+To started the feigenbaum calculator, run the following command:
+```
+$ python3 feigenbaum_calculator.py
+```
+This runs a simulation of ALL equilibrium graphs with r values that iterates every 0.00001. Such a small iteration amount makes the calculator very slow to make calculations but also makes it more precise. As described in the [Feigenbaum Constant Analysis](https://github.com/BooleanCube/chaos-theory#feigenbaum-constant), the calculator finds the bifurcation parameters where the number of equilibrium points double. The calculations are not entirely precise and accurate because of the rounding of the rate of change values and the bifurcation parameter values. There is no way to really calculate where the period-doubling bifurcations are, so we have to run simulations with perfect precision to observe where they appear. Here are the most precise results I could produce: <br>
+
+![image](https://user-images.githubusercontent.com/47650058/192828501-b883c4b2-8987-4a25-b9f6-91422039aebf.png) <br>
+![image](https://user-images.githubusercontent.com/47650058/192737182-f98e5dd0-614a-4d0d-8b9f-fb358c9f3f02.png)
+
+We can see from the calculations, the ratio that is being calculated as n approaches infinity continuously moves towards ~4.669 which is the feigenbaum constant.
 
 ## Installation
 **REQUIREMENT:** Must install [Python 3.7+](https://www.python.org/downloads/release/python-379/) (Versions of Python under 3.7 will not work for manim) <br> <br>
