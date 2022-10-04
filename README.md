@@ -3,7 +3,7 @@
 > Playing around with chaos theory simulations. Creating equilibrium graphs and visualizing the logistic maps.
 
 ## Chaos Theory
-The Logistic Map is derived from a very simple mathematical recursive function: `x_(n+1) = r * (x_n) * (1-x_n)` <br>
+The Logistic Map is derived from a simple mathematical recursive function: `x_(n+1) = r * (x_n) * (1-x_n)` <br>
 In this case, I would like to take the example of a population percentage over time (years) graph to explain the logistic map.
 - x_(n+1) represents population percentage next year (a value in the interval [0,1])
 - x_n represents the population percentage this year (a value in the interval [0,1])
