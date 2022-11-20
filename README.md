@@ -1,6 +1,6 @@
 # chaos-theory
 
-> Playing around with chaos theory simulations. Creating equilibrium graphs and visualizing the logistic maps.
+> Playing around with chaos theory simulations. Creating equilibrium graphs and visualizing the chaotic maps.
 
 ## Logistic Map
 The Logistic Map is derived from a simple mathematical recursive function: `x_(n+1) = r * (x_n) * (1-x_n)` <br>
